@@ -1,5 +1,6 @@
 #include <iostream>
 #include "date.h"
+#include <assert.h>
 
 Date::Date(int day, int month, int year):_day(day),_month(month),_year(year){
     bool status = isDate(month, day, year);
@@ -14,21 +15,21 @@ bool Date::isDate(int month,int day,int year) {
 }
 
 void Date::updateday(int day){
-    bool status = is Date(day,_month,_year);
+    bool status = isDate(day,_month,_year);
     assert(status && "Date is not valid");
-    _day = day
+    _day = day;
 }
 
 void Date::updatemonth(int month){
-    bool status = is Date(_day,month,year);
+    bool status = isDate(_day,month,year);
     assert(status && "Date is not valid");
-    _month = month
+    _month = month;
 }
 
 void Date::updateyear(int year){
-    bool status = is Date(_day,_month,year);
+    bool status = isDate(_day,_month,year);
     assert(status && "Date is not valid");
-    _year = year
+    _year = year;
 }
 
 int Date::month() const{
