@@ -13,5 +13,5 @@ namespace horaire{
 		 int _heure;
 		 int _minute;
 		 int _seconde;
-	}
+	};
 }       
