@@ -1,4 +1,14 @@
 #include <iostream>
+#ifndef DATE_H
+#define DATE_H
+#ifndef HORAIRE_H
+#define HORAIRE_H
+#ifndef COMPTE_H
+#define COMPTE_H
+#ifndef DEVISE_H
+#define DEVISE_H
+#ifndef TYPE_H
+#define TYPE_H
 
 namespace operation{
    class Operation{
@@ -25,3 +35,8 @@ namespace operation{
         float _soldefinale;
    };
 }
+#endif
+#endif
+#endif
+#endif
+#endif
