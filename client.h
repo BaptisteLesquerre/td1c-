@@ -1,4 +1,8 @@
 #include <iostream>
+#ifndef DATE_H
+#define DATE_H
+#ifndef ADRESSE_H
+#define ADRESSE_H
 
 namespace client{
 	class Client{
@@ -26,3 +30,5 @@ namespace client{
 	     std::string _metier;
 	};
 }
+#endif
+#endif
